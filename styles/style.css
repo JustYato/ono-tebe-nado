@@ -1,200 +1,184 @@
- header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 92px;
-  margin-left: auto;
-  margin-right: auto;
   width: 1340px;
   height: 109px;
+  margin-top: 92px;
+  margin-right: auto;
+  margin-left: auto;
   color: #000;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24.3px;
- }
+}
 
- nav {
+nav {
   width: 388px;
   height: 23px;
- }
+}
 
- .nav_list {
+.nav_list {
   display: flex;
   justify-content: space-between;
-  list-style-type: circle;
   text-underline-offset: 4px;
- }
+  list-style-type: circle;
+}
 
- ul li:first-child {
+ul li:first-child {
   list-style-type: none;
- }
+}
 
 .nav_list_first {
   text-decoration: none;
 }
 
- .contact_details {
+.contact_details {
   width: 240px;
   height: 97px;
   text-underline-offset: 4px;
- }
+}
 
- .logo_header{
-  margin-right: 148px;
-  margin-bottom: 4px;
+.logo_header {
   width: 148px;
   height: 105px;
- }
+  margin-right: 148px;
+  margin-bottom: 4px;
+}
 
 .contact_info {
   list-style-type: none;
- }
+}
 
- .jambotron {
-  margin-top: 92px;
-  margin-left: auto;
-  margin-right: auto;
+.jambotron {
   width: 1440px;
   height: 757px;
+  margin-top: 92px;
+  margin-right: auto;
+  margin-left: auto;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
- }
+}
 
- .jambotron_overlay {
+.jambotron_overlay {
   width: 1440px;
   height: 757px;
-  background: rgba(0, 0, 0, 0.60);
- }
+  background: rgba(0, 0, 0, 0.6);
+}
 
- .jambotron_title {
-  padding-top: 165px;
-  margin-left: auto;
-  margin-right: auto;
+.jambotron_title {
   display: flex;
   flex-direction: column;
   width: 1340px;
   height: 355px;
- }
- 
- h1 {
-  color: #FFF;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 165px;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 700;
   font-size: 100px;
   font-style: normal;
-  font-weight: 700;
   line-height: 115%;
   text-transform: uppercase;
- }
+}
 
- .title1_wrapper {
+.title1_wrapper {
+  display: flex;
   width: 1340px;
   height: 115px;
-  display: flex;
- }
- 
- .title1_text1 {
+}
+
+.sh_text {
   letter-spacing: 30px;
- }
+}
 
- .title1_text2 {
+.ln_text {
   letter-spacing: 60px;
- }
+}
 
- .title2_wrapper {
-  margin-top: 13px;
-  width: 1340px;
-  height: 100px;
+.title2_wrapper {
+  display: flex;
   justify-content: center;
-  display: flex;
- }
- 
- .title2_text1 {
-  letter-spacing: 30px;
- }
-
- .title2_text2 {
-  letter-spacing: 60px;
- }
-
- .title3_wrapper {
-  margin-top: 20px;
   width: 1340px;
   height: 100px;
-  justify-content: end;
+  margin-top: 13px;
+}
+
+.title3_wrapper {
   display: flex;
- }
- 
- .title3_text1 {
-  letter-spacing: 60px;
- }
+  justify-content: end;
+  width: 1340px;
+  height: 100px;
+  margin-top: 20px;
+}
 
- .title3_text2 {
-  letter-spacing: 30px;
- }
-
- .jambotron_bottom {
-  margin-left: 422px;
-  margin-top: 300px;
+.jambotron_bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 968px;
   height: 52px;
- }
+  margin-top: 300px;
+  margin-left: 422px;
+}
 
- .jambotron_bottom_text_wrapper {
+.jambotron_bottom_text_wrapper {
   display: flex;
   width: 633px;
   height: 28px;
-  color: #FFF;
-  text-align: center;
+  color: #fff;
+  font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  font-weight: 400;
   line-height: 28px;
+  text-align: center;
   text-transform: uppercase;
-  white-space: nowrap;
   word-spacing: 18px;
- }
+  white-space: nowrap;
+}
 
- .jambotron_bottom_text2 {
+.jambotron_bottom_text2 {
   margin-left: 21px;
- }
+}
 
- .jambotron_bottom_text3 {
+.jambotron_bottom_text3 {
   margin-left: 20px;
   word-spacing: 22px;
- }
+}
 
- .jambotron_button {
+.jambotron_button {
   width: 257px;
   height: 52px;
-  color: #FFF;
-  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 400;
   font-size: 22px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
+  text-align: center;
   text-transform: uppercase;
   background-color: transparent;
-  border: 1px solid #FFF;
- }
+}
 
 .lots {
-  margin-top: 180px;
   width: 1340px;
   height: 579px;
-  margin-left: auto;
+  margin-top: 180px;
   margin-right: auto;
+  margin-left: auto;
 }
 
 h2 {
   color: #000;
+  font-weight: 700;
   font-size: 40px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
 }
@@ -207,10 +191,10 @@ h2 {
   display: flex;
   flex-direction: row;
   gap: 25px;
-  margin-top: 27px;
-  margin-bottom: 31px;
   width: 1340px;
   height: 450px;
+  margin-top: 27px;
+  margin-bottom: 31px;
 }
 
 .card1 {
@@ -243,26 +227,26 @@ h2 {
 .card_overlay {
   width: 430px;
   height: 450px;
-  background: rgba(0, 0, 0, 0.60);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .card_content {
-  padding-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 350px;
   height: 400px;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-left: auto;
+  padding-top: 50px;
 }
 
 .lots_card_title {
-  color: #FFF;
+  color: #fff;
+  font-weight: 700;
   font-size: 22px;
   font-style: normal;
-  font-weight: 700;
   line-height: 120%;
   text-decoration: underline 1px;
   text-underline-offset: 3px;
@@ -270,39 +254,39 @@ h2 {
 }
 
 .lots_card_text {
-  color: #FFF;
+  color: #fff;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
-  line-height: 120%; 
+  line-height: 120%;
 }
 
 .lots_link {
   margin-left: 40px;
   color: #000;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
+  line-height: 23.48px;
   text-decoration: underline 1px;
   text-underline-offset: 5px;
- line-height: 23.48px;
 }
 
 .about {
   display: flex;
+  width: 1340px;
+  height: 487px;
   margin-top: 180px;
   margin-right: auto;
   margin-left: auto;
-  width: 1340px;
-  height: 487px;
 }
 
 .circle {
-  margin-left: 95px;
   display: flex;
   width: 240px;
   height: 240px;
+  margin-left: 95px;
   border-radius: 50%;
   background-color: black;
 }
@@ -314,47 +298,47 @@ h2 {
 }
 
 .about_column {
-  margin-top: 100px;
-  margin-left: 120px;
   width: 885px;
   height: 387px;
+  margin-top: 100px;
+  margin-left: 120px;
 }
 
 .about_text1 {
-  margin-top: 100px;
   width: 885px;
   height: 96px;
+  margin-top: 100px;
   color: #000;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
 .about_text2 {
-  margin-top: 25px;
   width: 885px;
   height: 119px;
+  margin-top: 25px;
   color: #000;
+  font-weight: 400;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
   line-height: normal;
 }
 
 footer {
-  margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
   width: 1340px;
   height: 97px;
   margin-top: 182px;
-  margin-left: auto;
   margin-right: auto;
+  margin-bottom: 90px;
+  margin-left: auto;
   color: #000;
+  font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  font-weight: 400;
   line-height: 24.3px;
 }
 
@@ -367,8 +351,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  list-style-type: none;
   text-underline-offset: 4px;
+  list-style-type: none;
 }
 
 .footer_list_content {
@@ -380,23 +364,13 @@ footer {
 }
 
 .socials {
-  width: 240px;
-  height: 48px;
   display: flex;
   justify-content: space-between;
-}
-
-.yt_logo {
-  width: 48px;
+  width: 240px;
   height: 48px;
 }
 
-.vk_logo {
-  width: 48px;
-  height: 48px;
-}
-
-.pt_logo {
+.social_logo {
   width: 48px;
   height: 48px;
 }
