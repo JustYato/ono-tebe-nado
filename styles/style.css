@@ -1,25 +1,22 @@
-header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 1340px;
-  height: 109px;
   margin-top: 92px;
   margin-right: auto;
   margin-left: auto;
   color: #000;
   font-weight: 400;
   font-size: 18px;
-  font-style: normal;
   line-height: 24.3px;
 }
 
-nav {
+.header_nav {
   width: 388px;
-  height: 23px;
 }
 
-.nav_list {
+.nav-list {
   display: flex;
   justify-content: space-between;
   text-underline-offset: 4px;
@@ -30,30 +27,28 @@ ul li:first-child {
   list-style-type: none;
 }
 
-.nav_list_first {
+.nav-list_first {
   text-decoration: none;
 }
 
-.contact_details {
-  width: 240px;
-  height: 97px;
-  text-underline-offset: 4px;
-}
-
-.logo_header {
+.header-logo {
   width: 148px;
   height: 105px;
   margin-right: 148px;
-  margin-bottom: 4px;
 }
 
-.contact_info {
+.address {
+  width: 240px;
+  font-style: normal;
+  text-underline-offset: 4px;
+}
+
+.address_content {
   list-style-type: none;
 }
 
 .jambotron {
   width: 1440px;
-  height: 757px;
   margin-top: 92px;
   margin-right: auto;
   margin-left: auto;
@@ -69,9 +64,7 @@ ul li:first-child {
   background: rgba(0, 0, 0, 0.6);
 }
 
-.jambotron_title {
-  display: flex;
-  flex-direction: column;
+.jambotron_overlay-title {
   width: 1340px;
   height: 355px;
   margin-right: auto;
@@ -80,6 +73,11 @@ ul li:first-child {
 }
 
 h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 18px;
+  width: 1340px;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -88,34 +86,30 @@ h1 {
   text-transform: uppercase;
 }
 
-.title1_wrapper {
-  display: flex;
-  width: 1340px;
-  height: 115px;
+.title-top {
+  line-height: 115px;
 }
 
-.sh_text {
+.title-middle {
+  line-height: 100px;
+  text-align: center;
+}
+
+.title-bottom {
+  line-height: 100px;
+  text-align: end;
+}
+
+.none-letter-spacing {
+  letter-spacing: 0px;
+}
+
+.short-letter-spacing {
   letter-spacing: 30px;
 }
 
-.ln_text {
+.large-letter-spacing {
   letter-spacing: 60px;
-}
-
-.title2_wrapper {
-  display: flex;
-  justify-content: center;
-  width: 1340px;
-  height: 100px;
-  margin-top: 13px;
-}
-
-.title3_wrapper {
-  display: flex;
-  justify-content: end;
-  width: 1340px;
-  height: 100px;
-  margin-top: 20px;
 }
 
 .jambotron_bottom {
@@ -123,15 +117,13 @@ h1 {
   justify-content: space-between;
   align-items: center;
   width: 968px;
-  height: 52px;
   margin-top: 300px;
   margin-left: 422px;
 }
 
-.jambotron_bottom_text_wrapper {
+.jambotron_bottom_text-wrapper {
   display: flex;
   width: 633px;
-  height: 28px;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
@@ -143,20 +135,20 @@ h1 {
   white-space: nowrap;
 }
 
-.jambotron_bottom_text2 {
-  margin-left: 21px;
+.default-word-spacing {
+  word-spacing: 17px;
 }
 
-.jambotron_bottom_text3 {
-  margin-left: 20px;
-  word-spacing: 22px;
+.large-word-spacing {
+  word-spacing: 21px;
 }
 
-.jambotron_button {
+.jambotron_bottom_button {
   width: 257px;
   height: 52px;
   border: 1px solid #fff;
   color: #fff;
+  font-family: Raleway;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -164,11 +156,11 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
   width: 1340px;
-  height: 579px;
   margin-top: 180px;
   margin-right: auto;
   margin-left: auto;
@@ -183,66 +175,69 @@ h2 {
   text-transform: uppercase;
 }
 
-.lot_section_title {
+.lots_title {
   margin-left: 40px;
 }
 
-.lots_card {
+.lots_cards {
   display: flex;
   flex-direction: row;
   gap: 25px;
   width: 1340px;
-  height: 450px;
   margin-top: 27px;
   margin-bottom: 31px;
 }
 
-.card1 {
+.cards_card-first {
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   background-image: url(../images/card-lot-01.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.card2 {
+.cards_card-second {
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   background-image: url(../images/card-lot-02.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.card3 {
+.cards_card-third {
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   background-image: url(../images/card-lot-03.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.card_overlay {
+.cards_overlay {
   width: 430px;
-  height: 450px;
+  min-height: 450px;
   background: rgba(0, 0, 0, 0.6);
 }
 
-.card_content {
+.cards_link {
+  text-decoration: none;
+}
+
+.cards_content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 350px;
-  height: 400px;
+  min-height: 400px;
   margin-right: auto;
   margin-bottom: 50px;
   margin-left: auto;
   padding-top: 50px;
 }
 
-.lots_card_title {
+.cards_content-title {
   color: #fff;
   font-weight: 700;
   font-size: 22px;
@@ -253,7 +248,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.lots_card_text {
+.cards_content-text {
   color: #fff;
   font-weight: 400;
   font-size: 20px;
@@ -275,7 +270,6 @@ h2 {
 .about {
   display: flex;
   width: 1340px;
-  height: 487px;
   margin-top: 180px;
   margin-right: auto;
   margin-left: auto;
@@ -290,7 +284,7 @@ h2 {
   background-color: black;
 }
 
-.logo_about {
+.circle_logo {
   width: 148px;
   height: 114px;
   margin: auto;
@@ -298,26 +292,19 @@ h2 {
 
 .about_column {
   width: 885px;
-  height: 387px;
   margin-top: 100px;
   margin-left: 120px;
 }
 
-.about_text1 {
+.about_text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
   width: 885px;
-  height: 96px;
   margin-top: 100px;
-  color: #000;
-  font-weight: 400;
-  font-size: 20px;
-  font-style: normal;
-  line-height: normal;
 }
 
-.about_text2 {
-  width: 885px;
-  height: 119px;
-  margin-top: 25px;
+.about_text {
   color: #000;
   font-weight: 400;
   font-size: 20px;
@@ -329,7 +316,6 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 1340px;
-  height: 97px;
   margin-top: 182px;
   margin-right: auto;
   margin-bottom: 90px;
@@ -341,9 +327,8 @@ footer {
   line-height: 24.3px;
 }
 
-.footer_menu {
+.footer_nav {
   width: 149px;
-  height: 64px;
 }
 
 .footer_list {
@@ -355,7 +340,7 @@ footer {
 }
 
 .footer_list_content {
-  height: 21px;
+  min-height: 21px;
 }
 
 .footer_list_first {
@@ -366,7 +351,7 @@ footer {
   display: flex;
   justify-content: space-between;
   width: 240px;
-  height: 48px;
+  min-height: 48px;
 }
 
 .social_logo {
