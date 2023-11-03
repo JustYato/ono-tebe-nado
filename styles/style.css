@@ -143,7 +143,7 @@ h1 {
 
 .jambotron_bottom_button {
   width: 257px;
-  max-height: 52px;
+  min-height: 52px;
   border: 1px solid #fff;
   color: #fff;
   font-family: Raleway, sans-serif;
