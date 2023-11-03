@@ -27,7 +27,7 @@ ul li:first-child {
   list-style-type: none;
 }
 
-.nav-list_first {
+.nav-list_active {
   text-decoration: none;
 }
 
@@ -60,13 +60,12 @@ ul li:first-child {
 
 .jambotron_overlay {
   width: 1440px;
-  height: 757px;
+  min-height: 757px;
   background: rgba(0, 0, 0, 0.6);
 }
 
 .jambotron_overlay-title {
   width: 1340px;
-  height: 355px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 165px;
@@ -117,7 +116,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   width: 968px;
-  margin-top: 300px;
+  margin-top: 137px;
   margin-left: 422px;
 }
 
@@ -132,7 +131,6 @@ h1 {
   text-align: center;
   text-transform: uppercase;
   word-spacing: 18px;
-  white-space: nowrap;
 }
 
 .default-word-spacing {
@@ -145,10 +143,10 @@ h1 {
 
 .jambotron_bottom_button {
   width: 257px;
-  height: 52px;
+  max-height: 52px;
   border: 1px solid #fff;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 22px;
   font-style: normal;
@@ -188,7 +186,7 @@ h2 {
   margin-bottom: 31px;
 }
 
-.cards_card-first {
+.cards_card-film {
   width: 430px;
   min-height: 450px;
   background-image: url(../images/card-lot-01.jpg);
@@ -197,7 +195,7 @@ h2 {
   background-size: cover;
 }
 
-.cards_card-second {
+.cards_card-book {
   width: 430px;
   min-height: 450px;
   background-image: url(../images/card-lot-02.jpg);
@@ -206,7 +204,7 @@ h2 {
   background-size: cover;
 }
 
-.cards_card-third {
+.cards_card-picture {
   width: 430px;
   min-height: 450px;
   background-image: url(../images/card-lot-03.jpg);
@@ -340,7 +338,7 @@ footer {
 }
 
 .footer_list_content {
-  min-height: 21px;
+  line-height: 21px;
 }
 
 .footer_list_first {
